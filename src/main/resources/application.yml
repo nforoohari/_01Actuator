@@ -1,18 +1,18 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-      base-path: /actuator
-  endpoint:
-    health:
-      show-details: always
-
-  info:
-    env:
-      enabled: true
-
-
-info:
-  app:
-    name: "my app in spring"
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#      base-path: /actuator
+#  endpoint:
+#    health:
+#      show-details: always
+#
+#  info:
+#    env:
+#      enabled: true
+#
+#
+#info:
+#  app:
+#    name: "my app in spring"
